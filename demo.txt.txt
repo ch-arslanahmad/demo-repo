@@ -1,1 +1,2 @@
-This is demo text to be commited using Git.s
+This is demo text.
+Updated to be commited using Git.
