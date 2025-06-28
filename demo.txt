@@ -3,7 +3,4 @@ Updated to be commited using Git.
 
 now updated using desktop github.
 
-
-
-
-this is updated in new-branch.
+this is the updated in new-branch.
