@@ -1,4 +1,3 @@
 This is demo text.
 Updated to be commited using Git.
-
 now updated using desktop github
