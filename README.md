@@ -82,7 +82,7 @@ The following are pretty straightforward and do not need such explainations:
 - >  for a quote, `>` text
 - [Github](www.github.com) - To make a hyperlink, add [text] then without space, (url) like `[Github](www.github.com)`.
 ![This is github logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhcVrL5XiyI9tM5z8mYG9oSL76qEIV-JRH_A&s)
-- To show an image is similar however before the [] brakets put exclaimation point(!). So, like this:\
+- To show an image is similar however before the [] brakets put exclaimation point(!). So, like this:
 
 `![This is github logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhcVrL5XiyI9tM5z8mYG9oSL76qEIV-JRH_A&s)`
 
@@ -117,9 +117,13 @@ This is the result:
 > [!NOTE]
 > I have not shown all syntaxes for everything, to learn more: [GitHub Basic Syntaxes & Formatting](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github).
 
-- To make this it should start with > and then [!NOTE] and then in another line start with > and then write the message.
-- [!NOTE] is not the only Alert, theres:
-  - [!TIP], [!IMPORTANT], [!WARNING], [!CAUTION]
+- The syntax for above `note` is:
+```
+> [!NOTE]
+> I have not shown all syntaxes for everything, to learn more: [GitHub Basic Syntaxes & Formatting](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github).
+```
+- `!NOTE` is not the only Alert, theres:
+  - `!TIP, !IMPORTANT, !WARNING, !CAUTION`
 For another example:
 > [!CAUTION]
 > Do not use one syntax excessively or endlessly without reason.
