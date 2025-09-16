@@ -62,7 +62,7 @@ This is the result:
 
 
 > [!NOTE]
-> I have not shown all syntaxes for everything, to learn more: [GitHub Basic Syntaxes & Formatting](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github).
+> I have not shown all syntaxes for everything, to learn more: [GitHub Basic Syntaxes & Formatting](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github) or [Markdown Style Guide](https://google.github.io/styleguide/docguide/style.html)
 
 - The syntax for above `note` is:
 ```
