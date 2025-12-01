@@ -39,13 +39,13 @@ A good commit message is _concise_ yet **descriptive**.
 
 Example, when you added fixed fingerprint authentication bug, a good commit message would be:
 
-```Add
+```bash
 git commit -m "fixed fingerprint auth bug"
 ```
 
 Rather than
 
-```git
+```bash
 git commit -m "fixed bug"
 ```
 
@@ -54,7 +54,7 @@ git commit -m "fixed bug"
 To check status if files are staged, modified, or untracked, use:
 
 ```bash
-git status
+git status # also tells current-branch
 ```
 
 ### View Commit History
