@@ -58,6 +58,7 @@ git status # also tells current-branch
 ```
 
 ### View Commit History
+
 To view commit history, use:
 
 ```bash
@@ -65,12 +66,15 @@ git log
 ```
 
 ### View Changes
+
 To view changes made to files, use:
 
 ```bash
 git diff
 ```
+
 ### Undo Changes
+
 To undo changes in a file before staging, use:
 
 ```bash
@@ -79,11 +83,32 @@ git restore <file-name>
 git restore . # to restore all files
 ```
 
-
->[!TIP]
+> [!TIP]
 > When getting a long output from commands like `git log` or `git diff`, you can navigate using:
+> 
 > - `j` or Down Arrow: Move down one line
 > - `k` or Up Arrow: Move up one line
 > - `Space`: Move down one page
 > - `b`: Move up one page
 > - `q`: Quit the viewer
+
+
+
+
+
+### Answering Questions
+
+1. what does git restore . do, does it remove local/remote commits?
+
+It resets the **files in your working directory** back to the state of the **latest commit (HEAD)**.
+
+So it only affects:
+
+* **Unstaged changes** → removed
+* **Uncommitted changes** → removed
+
+Not for,
+
+- commits (local/remote)
+- remote repo
+- branches & history
