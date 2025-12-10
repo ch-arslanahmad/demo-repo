@@ -64,6 +64,12 @@ To view commit history, use:
 ```bash
 git log
 ```
+> [!TIP]
+> you can also either use,
+> - `git log | less` 
+> - or use `--oneline` for concise view, like `git log --oneline`
+
+
 
 ### View Changes
 
@@ -91,10 +97,8 @@ git restore . # to restore all files
 > - `Space`: Move down one page
 > - `b`: Move up one page
 > - `q`: Quit the viewer
-
-
-
-
+> 
+> you can also either use, `less` like `git log | less`
 
 ### Answering Questions
 
@@ -112,3 +116,4 @@ Not for,
 - commits (local/remote)
 - remote repo
 - branches & history
+
