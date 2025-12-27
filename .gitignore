@@ -1,2 +1,6 @@
 # Ignore secret.txt file
 secret.txt
+
+# Ignore .vscode folder
+
+/.vscode/
