@@ -71,8 +71,7 @@ Simply use the following commands,
 
 git fetch origin
 git merge origin/main # a merge conflict may occur, resolve, commit, then
-git push
-# git push --abort - to abort, if not good
+git push # git push --abort - to abort, if not good
 
 
 ```
