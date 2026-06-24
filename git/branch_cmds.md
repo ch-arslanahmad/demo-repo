@@ -98,3 +98,18 @@ git branch -d <branch-name>
 > git branch --merged main     # merged into 'main'
 > git branch --no-merged main  # not merged into 'main'
 > ```
+
+## Pushing a New Branch
+
+When you create a branch locally (`git checkout -b feature-branch`), it only exists on your machine - GitHub/GitLab doesn't know about it yet.
+
+You need to push it to remote to share it or back it up.
+
+```bash
+git push -u origin feature-branch
+```
+
+After `-u`, future `git push` works automatically - Git remembers where to push.
+
+> [!NOTE]
+> See [Syncing Local & Remote Repo](syncing_local_and_remote.md) for more on upstream branches.

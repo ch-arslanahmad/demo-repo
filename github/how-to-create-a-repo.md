@@ -1,5 +1,9 @@
+---
+feature: thumbnails/external/9ce71f3e29534fa621d533cd8bc4b77d.png
+thumbnail: thumbnails/resized/9c75d4a7be5ff57e539372954b0d56d5_86cf658e.webp
+---
 
-## How to create a repo on Github?
+# How to create a repo on Github?
 To create a repository in GitHub (Web or Desktop):
 ### [Web](github.com): 
   - After logging in, in the main page. Click, ‘New’.\

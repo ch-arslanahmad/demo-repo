@@ -1,3 +1,7 @@
+---
+feature: thumbnails/external/762b586f8f6ee75f253101b81127e630.png
+thumbnail: thumbnails/resized/91f8f0ed17011f686f3ab85affe0952e_86cf658e.webp
+---
 ## How to Write Good Markdown-rich README's?
 Writing Good Markdown is essential in Github to do documentation, explaination, wiki etc effectively as it provides human readibility along with stylying it. Along with this you will come to know that syntax is not the only thing but something more crucial is how to use it.
 
